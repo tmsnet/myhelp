@@ -18,6 +18,9 @@ if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
 
-# 执行命令行
+# 执行命令行 （已经作废)
 # curl -s https://pastebin.com/raw/4k4UcAuC -o ~/.bashrc && sed -i 's/\r$//' ~/.bashrc && source ~/.bashrc
 # curl -s https://bit.ly/3wYtUxZ -o ~/.bashrc && sed -i 's/\r$//' ~/.bashrc && source ~/.bashrc
+
+# 清除windows字符，并执行.bashrc文件
+# sed -i 's/\r$//' ~/.bashrc && source ~/.bashrc
