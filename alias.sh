@@ -12,6 +12,7 @@ alias dcp='echo "dcp=docker-compose pull" && docker-compose pull'
 
 alias dcl='echo "dcl=docker container ls" && docker container ls'
 alias dil='echo "dil=docker image ls" && docker image ls'
+alias dpa='echo "dpa=docker ps -a" && docker ps -a'
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
