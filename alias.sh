@@ -14,6 +14,11 @@ alias dcl='echo "dcl=docker container ls" && docker container ls'
 alias dil='echo "dil=docker image ls" && docker image ls'
 alias dpa='echo "dpa=docker ps -a" && docker ps -a'
 
+alias kgp='echo "kgp=kubectl get pods" && kubectl get pods'
+alias kgd='echo "kgd=kubectl get deployments" && kubectl get deployments'
+alias kgs='echo "kgs=kubectl get services" && kubectl get services'
+alias kga='echo "kga=kubectl get all" && kubectl get all'
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
